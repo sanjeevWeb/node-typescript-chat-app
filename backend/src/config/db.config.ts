@@ -16,3 +16,5 @@ export const config = {
 };
 
 export const dialect = "mysql"
+
+export const jwt_secret: string | undefined = process.env.JWT_SECRET_KEY
